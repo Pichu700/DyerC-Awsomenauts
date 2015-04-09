@@ -39,6 +39,10 @@ var game = {
 
 	// Run on game resources loaded.
 	"loaded" : function () {
+                me.pool.register("wizard", game.PlayerEntity, true);
+                me.pool.register("PlayerBase", game.PlayerBaseEntity);
+                me.pool.register("EnemyBase", game.EnemyBaseEntity);
+            
 		me.state.set(me.state.MENU, new game.TitleScreen());
 		me.state.set(me.state.PLAY, new game.PlayScreen());
 
