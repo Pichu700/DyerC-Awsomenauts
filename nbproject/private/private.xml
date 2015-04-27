@@ -4,7 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/js/screens/play.js</file>
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/js/screens/title.js</file>
+=======
+            <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/data/img/tower_round.svg.png</file>
+            <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/data/img/brainmonster.png</file>
+>>>>>>> 58f629eb8ad4446c9afddb9cbca24443ad8d2ad5
             <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/js/resources.js</file>
             <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/js/game.js</file>
             <file>file:/C:/xampp/htdocs/DyerC-Awsomenauts/js/entities/entities.js</file>

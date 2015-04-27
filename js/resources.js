@@ -10,7 +10,11 @@ game.resources = [
         {name: "wizard", type:"image", src: "data/img/wizard.png"},
         {name: "tower", type:"image", src: "data/img/tower_round.svg.png"},
         {name: "monster", type:"image", src: "data/img/brainmonster.png"},
+<<<<<<< HEAD
         {name: "title-screen", type:"image", src: "data/img/title.png"},
+=======
+
+>>>>>>> 58f629eb8ad4446c9afddb9cbca24443ad8d2ad5
 	/* Atlases 
 	 * @example
 	 * {name: "example_tps", type: "tps", src: "data/img/example_tps.json"},
