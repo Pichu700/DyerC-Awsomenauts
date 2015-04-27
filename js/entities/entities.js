@@ -27,6 +27,11 @@ game.PlayerEntity = me.Entity.extend({
     },
     update: function (delta) {
         this.now = new Date().getTime();
+        
+        if(this.health <= 0){
+            this.dead = true;
+        }
+        
         if (me.input.isKeyPressed("right")) {
             this.body.vel.x += this.body.accel.x * me.timer.tick;
             this.facing = "right";
@@ -298,6 +303,11 @@ game.GameManager = Object.extend({
     },
     update: function () {
         this.now = new Date().getTime();
+        
+        if(game.data.player.dead){
+            me.game.world.removeChild(game.data.player);
+            me.state.current().resetPlayer(10,0);
+        }
 
         if(Math.round(this.now/1000)%10 === 0 && (this.now - this.lastCreep >= 1000)) {
             this.lastCreep = this.now;
